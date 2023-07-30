@@ -1,7 +1,6 @@
 streamlit
 seaborn
 matplotlib
-pickle
 time
 math
 urllib.request

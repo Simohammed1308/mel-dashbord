@@ -221,8 +221,8 @@ if (int(id_client) in id_list):
 
             #Appel de l'API :--port 1234 
 
-        API_url = "http://127.0.0.1:1234/credit/" + str(id_client)
-        #API_url = "https://api-flask-mel-593f2a859e1d.herokuapp.com/credit/" + str(id_client)
+        #API_url = "http://127.0.0.1:1234/credit/" + str(id_client)
+        API_url = "https://api-flask-mel-593f2a859e1d.herokuapp.com/credit/" + str(id_client)
         #st.write(API_url)
         
         
@@ -377,15 +377,15 @@ if (int(id_client) in id_list):
                 
             elif (feature in rotate_label):
                 
-                univariate_categorical(data_train, feature,client_info[feature], var, False, True)
+                univariate_categorical(df, feature,client_info[feature], var, False, True)
             elif (feature in horizontal_layout):
                
                 
-                univariate_categorical(data_train, feature,client_info[feature], var, False, True, True)
+                univariate_categorical(df, feature,client_info[feature], var, False, True, True)
                 
             else:
                 
-                univariate_categorical(data_train, feature, client_info[feature], var)
+                univariate_categorical(df, feature, client_info[feature], var)
                                     
        
             

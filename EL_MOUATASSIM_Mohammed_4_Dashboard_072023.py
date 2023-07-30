@@ -377,15 +377,15 @@ if (int(id_client) in id_list):
                 
             elif (feature in rotate_label):
                 
-                univariate_categorical(data_train, feature,client_info[feature], var, False, True)
+                univariate_categorical(df, feature,client_info[feature], var, False, True)
             elif (feature in horizontal_layout):
                
                 
-                univariate_categorical(data_train, feature,client_info[feature], var, False, True, True)
+                univariate_categorical(df, feature,client_info[feature], var, False, True, True)
                 
             else:
                 
-                univariate_categorical(data_train, feature, client_info[feature], var)
+                univariate_categorical(df, feature, client_info[feature], var)
                                     
        
             

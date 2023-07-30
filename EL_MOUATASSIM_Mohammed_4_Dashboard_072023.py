@@ -31,7 +31,7 @@ print('df shape = ', df.shape)
         
 #description des features
         
-description = pd.read_csv(PATH+'HomeCredit_columns_description.csv', 
+description = pd.read_csv('HomeCredit_columns_description.csv', 
                                       usecols=['Row', 'Description'], \
                                   index_col=0, encoding='unicode_escape')
 

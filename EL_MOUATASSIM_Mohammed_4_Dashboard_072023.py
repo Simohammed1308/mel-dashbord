@@ -221,8 +221,8 @@ if (int(id_client) in id_list):
 
             #Appel de l'API :--port 1234 
 
-        API_url = "http://127.0.0.1:1234/credit/" + str(id_client)
-        #API_url = "https://api-flask-mel-593f2a859e1d.herokuapp.com/credit/" + str(id_client)
+        #API_url = "http://127.0.0.1:1234/credit/" + str(id_client)
+        API_url = "https://api-flask-mel-593f2a859e1d.herokuapp.com/credit/" + str(id_client)
         #st.write(API_url)
         
         
